@@ -9,4 +9,6 @@ const router = Router({ strict: true });
 router.use(json());
 router.use(pinoHttp({ ...loggerOptions }));
 
+router.get("/headerparser", async (req, res) => res.sendFile(path.join(__dirname, "../../../", "public/")));
+
 module.exports = router;
