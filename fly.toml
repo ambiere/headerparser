@@ -1,0 +1,21 @@
+# fly.toml app configuration file generated for xcixtask on 2023-11-12T14:35:40+03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "datestamp"
+primary_region = "jnb"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[build.args]
+    NODE_ENV = "production"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
