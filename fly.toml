@@ -1,15 +1,14 @@
-# fly.toml app configuration file generated for xcixtask on 2023-11-12T14:35:40+03:00
+# fly.toml app configuration file generated for headerparser on 2023-12-01T15:48:04+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "datestamp"
+app = "headerparser"
 primary_region = "jnb"
 
 [build]
   dockerfile = "Dockerfile"
-
-[build.args]
+  [build.args]
     NODE_ENV = "production"
 
 [http_service]
@@ -19,3 +18,8 @@ primary_region = "jnb"
   auto_start_machines = true
   min_machines_running = 0
   processes = ["app"]
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 1024
