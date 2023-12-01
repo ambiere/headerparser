@@ -1,6 +1,6 @@
 {
   "name": "@headerparser",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Header Parser Microservice: Simple API built with Node.js and Express that extracts and parses information from HTTP request headers.",
   "main": "src/bin/index.js",
   "scripts": {
