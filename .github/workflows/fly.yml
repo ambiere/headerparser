@@ -10,7 +10,7 @@ env:
 
 jobs:
   deploy:
-    name: Deploy datestamp
+    name: Deploy headerparser
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
