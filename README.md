@@ -49,9 +49,10 @@ Response:
 
 ```json
 {
-  "ipaddress": "159.20.14.100",
-  "language": "en-US,en;q=0.5",
-  "software": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"
+  "id": "e7757827-c456-4354-9b98-b9ebfee29705",
+  "ipAddress": "159.20.14.100",
+  "languages": "en-US,en;q=0.5",
+  "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"
 }
 ```
 

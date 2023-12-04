@@ -1,6 +1,14 @@
-## [0.3.0-beta](https://github.com/zhid0399123/headerparser/compare/0.2.0...0.3.0) (2023-12-04)
+## (2023-12-04)
+
+## [0.3.1-beta](https://github.com/zhid0399123/headerparser/compare/0.3.0...0.3.1) (2023-12-04)
 
 - Initial release
+
+## [0.3.1](https://github.com/zhid0399123/headerparser/compare/0.3.0...0.3.1) (2023-12-04)
+
+### Bug Fixes
+
+- **index.js:** example endpoint url ([06ee6b9](https://github.com/zhid0399123/headerparser/commit/06ee6b932fffc7d953cd60e67a3d0498760c4b4e))
 
 ## [0.3.0](https://github.com/zhid0399123/headerparser/compare/0.2.0...0.3.0) (2023-12-04)
 
